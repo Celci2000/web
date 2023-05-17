@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    height:100vh;
+    overflow :hidden;
+    align-items:center;
+    background-image:url("https://images.unsplash.com/photo-1678972726040-2f2cefc3cefa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+background-repeat: no-repeat;
+  background-size :cover;
+  background-position: center; 
+  
+
+}
+h2{
+    text-transform: uppercase;
+    
+
+    color:#031834;
+    
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.clock{
+    display:flex;
+    justify-content:space-around;
+}
+.clock div{
+    background-color:#2369C5;
+    margin :10px;
+    padding: 40px;
+    text-align:center;
+
+}
+.clock span{
+    display:flex;
+    flex-direction :column;
+    color:white;
+    font-size:34px;
+
+}
